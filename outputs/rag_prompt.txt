@@ -4,100 +4,121 @@ working on Audio Video Solutions (AVS) products.
 USER QUESTION:
 The STB does not wake up after standby
 
-RETRIEVED JIRA CONTEXT:
-[TICKET 1]
-Jira Key: BBTV-3388
+RETRIEVED AND GROUPED JIRA CONTEXT:
+[SIMILARITY GROUP 1]
+Number of grouped tickets: 10
+Representative Jira Key: BBTV-3388
+Representative query similarity: 0.769
+Summary: STB does not wake from standby with the RCU power key
 Jira Project: BBTV
 Customer Reference: BBTV:VTVAS-20292
 Generation: Gen3
-Functional Domains: Power
-Similarity Score: 0.769
-Summary: STB does not wake from standby with the RCU power key
-Program: Not available
+Summary Tags (raw): Power
+Product/Program field: Not available
 Status: CLOSED
 Priority: Low
 Severity: Major
 Component: ToBeDefined
 Version: [FW][AVSB] 2.2405.18
 Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][AVSB] 2.2405.18. Intermittent, about 1 time out of 5.
+Grouped Jira tickets:
+- BBTV-3388 | query_score=0.769 | Jira project=BBTV | generation=Gen3 | version=[FW][AVSB] 2.2405.18 | status=CLOSED | priority=Low | severity=Major | summary_tags=Power
+- BBTV-3395 | query_score=0.764 | Jira project=BBTV | generation=Gen3 | version=Not available | status=OPEN | priority=High | severity=Major | summary_tags=Not specified
+- BBTV-3244 | query_score=0.761 | Jira project=BBTV | generation=Gen4 | version=[FW][AVSB] 2.2405.18 | status=CLOSED | priority=Low | severity=Critical | summary_tags=Boot, Power
+- AVTV-7132 | query_score=0.759 | Jira project=AVTV | generation=Gen4 | version=[FW][STB37X] 5.2406.10 | status=CLOSED | priority=Medium | severity=Major | summary_tags=Boot
+- BBTV-3019 | query_score=0.758 | Jira project=BBTV | generation=Gen4 | version=[FW][AVSB] 2.2405.18 | status=CLOSED | priority=High | severity=Major | summary_tags=DE-Prod
+- AVTV-7344 | query_score=0.755 | Jira project=AVTV | generation=Gen4 | version=Not available | status=CLOSED | priority=Low | severity=Major | summary_tags=Not specified
+- BBTV-3336 | query_score=0.751 | Jira project=BBTV | generation=Gen4 | version=Not available | status=CLOSED | priority=Low | severity=Major | summary_tags=DE-Prod, Boot
+- AVTV-7366 | query_score=0.750 | Jira project=AVTV | generation=Gen4 | version=[FW][AVSB] 2.2405.18 | status=CLOSED | priority=Low | severity=Major | summary_tags=DE-Prod, Power, Boot
+- AVTV-7096 | query_score=0.749 | Jira project=AVTV | generation=Gen4 | version=Not available | status=CLOSED | priority=High | severity=Major | summary_tags=DE-Prod
+- AVTV-7141 | query_score=0.746 | Jira project=AVTV | generation=Gen4 | version=Not available | status=CLOSED | priority=Low | severity=Major | summary_tags=Power, Boot
 
-[TICKET 2]
-Jira Key: BBTV-3395
-Jira Project: BBTV
-Customer Reference: BBTV:VTVAS-20299
-Generation: Gen3
-Functional Domains: Not specified
-Similarity Score: 0.764
-Summary: STB does not wake from standby with the RCU power key
-Program: Not available
-Status: OPEN
-Priority: High
-Severity: Major
-Component: ToBeDefined
-Version: Not available
-Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: not specified. Intermittent, about 1 time out of 5.
-
-[TICKET 3]
-Jira Key: BBTV-3244
-Jira Project: BBTV
-Customer Reference: BBTV:VTVAS-20179
-Generation: Gen4
-Functional Domains: Boot, Power
-Similarity Score: 0.761
-Summary: STB does not wake from standby with the RCU power key
-Program: Not available
+[SIMILARITY GROUP 2]
+Number of grouped tickets: 8
+Representative Jira Key: AVTV-7316
+Representative query similarity: 0.669
+Summary: Resume from standby takes more than 30 seconds
+Jira Project: AVTV
+Customer Reference: AVTV:VTVAS-12234
+Generation: Not specified
+Summary Tags (raw): Not specified
+Product/Program field: Not available
 Status: CLOSED
 Priority: Low
-Severity: Critical
+Severity: Major
 Component: ToBeDefined
-Version: [FW][AVSB] 2.2405.18
-Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][AVSB] 2.2405.18. Reproduced 3 times out of 3.
+Version: [FW][STB37X] 5.2406.10
+Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][STB37X] 5.2406.10. Seen once during validation.
+Grouped Jira tickets:
+- AVTV-7316 | query_score=0.669 | Jira project=AVTV | generation=Not specified | version=[FW][STB37X] 5.2406.10 | status=CLOSED | priority=Low | severity=Major | summary_tags=Not specified
+- BBTV-3078 | query_score=0.665 | Jira project=BBTV | generation=Not specified | version=Not available | status=CLOSED | priority=High | severity=Major | summary_tags=Not specified
+- BBTV-3278 | query_score=0.648 | Jira project=BBTV | generation=Not specified | version=[FW][AVSB] 2.2405.18 | status=CLOSED | priority=Medium | severity=Minor | summary_tags=AVSB, Power
+- AVTV-7278 | query_score=0.631 | Jira project=AVTV | generation=Not specified | version=[FW][M378] 4.2404.62 | status=CLOSED | priority=High | severity=Major | summary_tags=AVSB, Power, Boot
+- AVTV-7187 | query_score=0.620 | Jira project=AVTV | generation=Gen3 | version=[FW][STB37X] 5.2406.10 | status=CLOSED | priority=High | severity=Critical | summary_tags=Power, Boot
+- AVTV-7351 | query_score=0.620 | Jira project=AVTV | generation=Gen3 | version=[FW][STB37X] 5.2406.10 | status=CLOSED | priority=Medium | severity=Major | summary_tags=Power, Boot
+- BBTV-3280 | query_score=0.619 | Jira project=BBTV | generation=Gen3 | version=[FW][STB37X] 5.2406.10 | status=CLOSED | priority=Low | severity=Major | summary_tags=Boot, Power
+- AVTV-7603 | query_score=0.613 | Jira project=AVTV | generation=Gen3 | version=Not available | status=CLOSED | priority=Medium | severity=Minor | summary_tags=Boot
 
-[TICKET 4]
-Jira Key: AVTV-7132
+[SIMILARITY GROUP 3]
+Number of grouped tickets: 5
+Representative Jira Key: AVTV-7478
+Representative query similarity: 0.655
+Summary: Video missing after standby exit
 Jira Project: AVTV
-Customer Reference: AVTV:VTVAS-12097
-Generation: Gen4
-Functional Domains: Boot
-Similarity Score: 0.759
-Summary: STB does not wake from standby with the RCU power key
-Program: Not available
+Customer Reference: AVTV:VTVAS-12372
+Generation: Not specified
+Summary Tags (raw): Not specified
+Product/Program field: Not available
 Status: CLOSED
-Priority: Medium
+Priority: Low
 Severity: Major
 Component: ToBeDefined
 Version: [FW][STB37X] 5.2406.10
 Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][STB37X] 5.2406.10. Intermittent, about 1 time out of 5.
+Grouped Jira tickets:
+- AVTV-7478 | query_score=0.655 | Jira project=AVTV | generation=Not specified | version=[FW][STB37X] 5.2406.10 | status=CLOSED | priority=Low | severity=Major | summary_tags=Not specified
+- AVTV-7384 | query_score=0.628 | Jira project=AVTV | generation=Gen4 | version=[FW][STB37X] 5.2406.10 | status=CLOSED | priority=Low | severity=Major | summary_tags=DE-Prod, Power
+- AVTV-7230 | query_score=0.627 | Jira project=AVTV | generation=Gen4 | version=[FW][STB37X] 5.2406.10 | status=CLOSED | priority=High | severity=Major | summary_tags=Not specified
+- AVTV-7401 | query_score=0.621 | Jira project=AVTV | generation=Not specified | version=[FW][AVSB] 2.2405.18 | status=CLOSED | priority=Low | severity=Major | summary_tags=AVSB, Power, Boot
+- BBTV-3264 | query_score=0.607 | Jira project=BBTV | generation=Gen4 | version=Not available | status=CLOSED | priority=Medium | severity=Major | summary_tags=DE-Prod, Power
 
-[TICKET 5]
-Jira Key: BBTV-3019
+[SIMILARITY GROUP 4]
+Number of grouped tickets: 2
+Representative Jira Key: BBTV-3237
+Representative query similarity: 0.650
+Summary: Black screen after waking up from standby
 Jira Project: BBTV
-Customer Reference: BBTV:VTVAS-20012
-Generation: Gen4
-Functional Domains: DE-Prod
-Similarity Score: 0.758
-Summary: STB does not wake from standby with the RCU power key
-Program: Not available
-Status: CLOSED
-Priority: High
+Customer Reference: BBTV:VTVAS-20171
+Generation: Not specified
+Summary Tags (raw): AVSB
+Product/Program field: Not available
+Status: OPEN
+Priority: Low
 Severity: Major
-Component: ToBeDefined
-Version: [FW][AVSB] 2.2405.18
-Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][AVSB] 2.2405.18. Intermittent, about 1 time out of 5.
+Component: Player
+Version: Not available
+Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: not specified. Seen once during validation.
+Grouped Jira tickets:
+- BBTV-3237 | query_score=0.650 | Jira project=BBTV | generation=Not specified | version=Not available | status=OPEN | priority=Low | severity=Major | summary_tags=AVSB
+- AVTV-7275 | query_score=0.617 | Jira project=AVTV | generation=Gen4 | version=Not available | status=CLOSED | priority=Low | severity=Major | summary_tags=Not specified
 
 INSTRUCTIONS:
-1. Answer using only the information in the retrieved tickets.
-2. Identify tickets that describe similar symptoms or functional behavior.
-3. Distinguish confirmed facts from hypotheses.
-4. Do not invent root causes, fixes, or test results.
-5. Mention the Jira key whenever you use information from a ticket.
-6. If the context is insufficient, explicitly say so.
-7. Suggest functional test scenarios that could help investigate the issue.
+1. Use only information present in the retrieved Jira context.
+2. Treat each similarity group as potentially related tickets, not proof of one identical incident.
+3. Cite the Jira key whenever using ticket information.
+4. Distinguish observed facts from hypotheses.
+5. Do not invent root causes, fixes, or test results.
+6. Compare Jira projects, generations, versions, statuses, priorities and severities when available.
+7. Identify repeated symptoms and differences between tickets in the same group.
+8. Suggest functional validation scenarios based on the evidence.
+9. If information is missing, explicitly state that it is unavailable.
+10. Do not interpret Jira project prefixes as customer-program names.
 
 STRUCTURE YOUR ANSWER:
 - Problem understanding
-- Related Jira tickets (with keys)
-- Common symptoms or patterns
+- Related ticket groups (representative ticket and all Jira keys)
+- Common symptoms and differences
+- Cross-project / cross-generation observations
 - Possible functional coverage gaps
 - Suggested validation scenarios
-- Limitations / missing information
+- Limitations and missing information
