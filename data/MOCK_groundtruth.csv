@@ -1,0 +1,401 @@
+Key,scenario,Program,module,user_action,precondition,configuration,error_condition,functionality,category,in_both_programs
+AVTV-7004,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7005,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7006,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7009,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7011,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7014,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7017,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7019,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7020,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7022,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7025,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7027,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7031,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7034,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7037,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7038,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7041,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7045,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7048,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7049,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7053,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7057,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7058,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7061,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7063,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7064,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7067,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7070,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7073,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7077,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7081,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7084,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7086,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7090,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7092,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7093,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7096,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7099,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7100,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7104,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7108,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7111,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7112,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7116,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7120,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7124,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7127,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7131,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7132,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7134,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7137,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7141,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7142,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7144,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7147,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7148,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7152,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7154,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7155,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7158,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7162,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7165,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7167,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7171,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7174,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7176,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7179,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7183,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7184,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7187,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7189,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7193,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7195,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7197,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7200,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7203,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7205,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7209,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7213,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7216,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7218,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7220,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7224,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7227,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7230,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7231,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7235,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7236,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7239,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7240,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7244,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7246,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7249,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7252,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7254,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7258,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7260,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7264,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7265,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7268,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7269,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7270,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7271,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7273,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7275,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7278,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7281,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7283,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7284,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7288,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7292,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7295,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7298,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7301,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7305,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7308,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7311,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7314,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7316,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7318,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7320,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7323,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7327,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7328,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7330,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7334,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7337,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7338,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7341,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7344,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7346,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7347,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7351,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7352,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7354,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7358,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7360,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7364,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7366,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7367,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7368,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7369,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7373,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7375,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7379,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7381,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7384,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7386,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7390,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7393,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7397,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7398,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7400,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7401,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7405,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7406,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7408,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7410,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7414,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7418,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7419,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7422,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7425,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7427,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7431,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7433,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7435,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7437,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7438,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7439,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7440,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7443,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7446,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7447,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7448,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7449,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7450,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7451,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7454,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7457,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7459,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7461,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7465,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7468,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7470,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7473,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7474,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7476,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7478,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7480,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7481,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7485,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7489,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7491,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7492,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7494,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7496,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7498,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7502,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7503,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7506,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7508,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7511,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7513,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7515,wifi_forget,AVTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+AVTV-7516,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7517,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7521,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7523,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7525,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7528,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7531,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7535,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7538,audio_preset,AVTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+AVTV-7539,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7540,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7544,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7546,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7550,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7552,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7556,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7559,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7562,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7563,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7564,hdmi_resume,AVTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+AVTV-7567,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7568,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7572,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+AVTV-7575,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7577,subtitles,AVTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+AVTV-7579,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7580,energy_saving,AVTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+AVTV-7584,crash_boot,AVTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+AVTV-7588,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7592,ott_pause,AVTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+AVTV-7595,accessibility,AVTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+AVTV-7597,translation,AVTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+AVTV-7601,parental,AVTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+AVTV-7603,standby_wake,AVTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+AVTV-7606,bluetooth_rcu,AVTV,Bluetooth RCU,reboot the STB,RCU paired over Bluetooth,Bluetooth pairing enabled,pairing lost or keys unresponsive,remote control,Integration defect,False
+BBTV-3003,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3006,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3010,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3014,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3016,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3019,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3023,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3025,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3029,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3033,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3037,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3039,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3043,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3044,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3045,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3046,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3050,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3052,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3056,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3059,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3061,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3063,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3066,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3069,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3071,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3074,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3078,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3081,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3083,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3085,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3088,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3089,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3091,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3094,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3097,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3098,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3102,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3105,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3107,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3111,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3112,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3113,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3114,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3115,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3118,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3121,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3125,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3127,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3130,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3131,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3133,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3135,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3138,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3139,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3143,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3146,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3149,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3153,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3157,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3161,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3164,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3168,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3172,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3175,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3178,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3179,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3181,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3184,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3187,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3190,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3194,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3197,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3200,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3201,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3204,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3205,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3209,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3212,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3215,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3216,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3220,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3221,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3224,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3225,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3226,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3229,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3233,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3236,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3237,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3238,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3240,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3241,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3242,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3244,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3248,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3252,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3254,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3256,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3258,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3261,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3264,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3267,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3271,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3273,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3275,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3278,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3279,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3280,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3283,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3284,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3288,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3291,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3293,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3294,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3295,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3298,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3300,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3301,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3305,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3307,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3310,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3312,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3313,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3317,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3318,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3320,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3324,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3328,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3331,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3333,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3336,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3339,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3340,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3344,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3347,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3351,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3355,ott_pause,BBTV,OTT player,press OK on the RCU to pause,OTT content is playing,trick mode enabled,audio and video not decoded after pause,trick modes,Functional defect,True
+BBTV-3359,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3360,hdmi_resume,BBTV,HDMI output,unplug and replug the HDMI cable,STB booted and playing a live channel,"HDMI output mode auto, HDCP 2.2",no video after reconnection,video playback,Functional defect,True
+BBTV-3364,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3365,subtitles,BBTV,Subtitles,change the subtitle style during playback,content with subtitles is playing,subtitle size and font,style not applied,subtitle display,User interface issue,True
+BBTV-3367,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3369,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3373,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3377,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True
+BBTV-3381,energy_saving,BBTV,Energy saving,leave the STB idle,energy saving timeout set to 15 minutes,energy saver enabled,STB does not go to standby,energy saving,Functional defect,True
+BBTV-3383,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3384,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3388,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3390,parental,BBTV,Parental control,zap to a restricted channel,parental control enabled with a PIN,age rating 12+,PIN not requested or wrong PIN accepted,access restriction,Security vulnerability,True
+BBTV-3391,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3395,standby_wake,BBTV,Power management,wake up the STB from standby with the RCU,STB in standby for 10 minutes,deep standby mode,black screen or slow wake up,power modes,Performance issue,True
+BBTV-3396,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3397,crash_boot,BBTV,Boot sequence,reboot after a firmware upgrade,firmware upgrade completed,latest firmware,"crash, boot loop or freeze",system boot,Regression defect,True
+BBTV-3400,cleardata,BBTV,System settings,run a factory reset or clear the data of an app,user data and Wi-Fi credentials stored,factory reset,data not removed or crash,data reset,Security vulnerability,False
+BBTV-3401,audio_preset,BBTV,Audio settings,open the audio profile preset,several applications installed,audio profile preset menu,no default option selected,audio profile,User interface issue,True
+BBTV-3404,wifi_forget,BBTV,Network settings,forget the Wi-Fi network then reboot,STB connected to a Wi-Fi network,"Wi-Fi 5 GHz, auto-connect enabled",STB reconnects to the forgotten network,network management,Functional defect,True
+BBTV-3407,multicast_live,BBTV,Live TV multicast,zap between multicast channels,STB on a managed IPTV network,multicast streaming,video freeze or slow zapping,live zapping,Performance issue,False
+BBTV-3411,translation,BBTV,Localization,open the settings menu in German,menu language set to German,language de,untranslated or wrongly translated label,menu localization,User interface issue,True
+BBTV-3415,accessibility,BBTV,Accessibility,increase the text scaling,accessibility menu available,text scaling 150 percent,scaling or bold text not applied,text display,User interface issue,True

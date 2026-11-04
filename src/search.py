@@ -55,6 +55,66 @@ class TfidfEngine:
         return cosine_similarity(self.vec.transform([query]), self.matrix).ravel()
 
 
+class TfidfSvdEngine:
+    name = "tfidf_svd"
+
+    def __init__(self, texts, n_components=50):
+        from sklearn.feature_extraction.text import TfidfVectorizer
+        from sklearn.decomposition import TruncatedSVD
+        from sklearn.preprocessing import normalize
+
+        # 1. TF-IDF vectorization
+        self.vec = TfidfVectorizer(
+            lowercase=True,
+            ngram_range=(1, 2),
+            sublinear_tf=True,
+            strip_accents="unicode"
+        )
+
+        tfidf_matrix = self.vec.fit_transform(texts)
+
+        # 2. Choose a valid number of components
+        n_samples, n_features = tfidf_matrix.shape
+        components = min(
+            n_components,
+            n_samples - 1,
+            n_features - 1
+        )
+
+        if components < 1:
+            raise ValueError("Not enough data for TruncatedSVD")
+
+        # 3. Dimensionality reduction
+        self.svd = TruncatedSVD(
+            n_components=components,
+            random_state=42
+        )
+
+        reduced_matrix = self.svd.fit_transform(tfidf_matrix)
+
+        # 4. Normalize reduced vectors
+        self.matrix = normalize(reduced_matrix)
+
+        self.normalize = normalize
+
+        print(
+            f"TF-IDF + SVD: {n_features} dimensions "
+            f"-> {components} latent dimensions"
+        )
+
+    def scores(self, query):
+        # Transform query using the same TF-IDF vocabulary
+        query_tfidf = self.vec.transform([query])
+
+        # Project query into the latent space
+        query_reduced = self.svd.transform(query_tfidf)
+
+        # Normalize and calculate cosine similarity
+        query_normalized = self.normalize(query_reduced)
+
+        return (query_normalized @ self.matrix.T).ravel()
+
+
 class KeywordEngine:
     name = "keywords"
 
@@ -86,16 +146,26 @@ class EmbeddingEngine:
         return self.emb @ q
 
 
+
 def build_engine(kind, texts, quiet=False):
     if kind == "embeddings":
         try:
             return EmbeddingEngine(texts)
-        except Exception as e:  # paquet absent, modèle non téléchargeable, réseau bloqué...
+        except Exception as e:
             if not quiet:
-                print(f"[!] Embeddings indisponibles ({type(e).__name__}). Repli sur TF-IDF.")
+                print(
+                    f"[!] Embeddings indisponibles "
+                    f"({type(e).__name__}). Repli sur TF-IDF."
+                )
+
     if kind == "keywords":
         return KeywordEngine(texts)
+
+    if kind == "tfidf_svd":
+        return TfidfSvdEngine(texts)
+
     return TfidfEngine(texts)
+
 
 
 def top_k(engine, df, query, k=5, exclude_key=None, before_num=None, min_score=0.0):
@@ -162,7 +232,11 @@ def export_matches(engine, df, cols, path, k, older_only=True, min_score=0.1):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("file")
-    ap.add_argument("--engine", choices=["tfidf", "keywords", "embeddings"], default="tfidf")
+    ap.add_argument(
+        "--engine",
+        choices=["tfidf", "keywords", "embeddings", "tfidf_svd"],
+        default="tfidf"
+    )
     ap.add_argument("--query")
     ap.add_argument("--ticket", help="clé d'un ticket : trouve ses voisins")
     ap.add_argument("--eval", help="CSV avec colonnes query,expected_key (plusieurs clés séparées par |)")
@@ -199,7 +273,7 @@ def main():
         q = pd.read_csv(a.eval)
         if a.compare:
             print(f"\n{'Moteur':<12}{'Top-1':>8}{'Top-5':>8}{'MRR':>8}   ({len(q)} requêtes)")
-            for kind in ("keywords", "tfidf", "embeddings"):
+            for kind in ("keywords", "tfidf", "tfidf_svd", "embeddings"):
                 eng = build_engine(kind, df["text"], quiet=True)
                 if kind == "embeddings" and eng.name != "embeddings":
                     print(f"{'embeddings':<12}  (non disponible : paquet ou modèle absent)")
