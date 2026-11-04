@@ -1,0 +1,103 @@
+You are an assistant supporting software validation and QA engineers
+working on Audio Video Solutions (AVS) products.
+
+USER QUESTION:
+The STB does not wake up after standby
+
+RETRIEVED JIRA CONTEXT:
+[TICKET 1]
+Jira Key: BBTV-3388
+Jira Project: BBTV
+Customer Reference: BBTV:VTVAS-20292
+Generation: Gen3
+Functional Domains: Power
+Similarity Score: 0.769
+Summary: STB does not wake from standby with the RCU power key
+Program: Not available
+Status: CLOSED
+Priority: Low
+Severity: Major
+Component: ToBeDefined
+Version: [FW][AVSB] 2.2405.18
+Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][AVSB] 2.2405.18. Intermittent, about 1 time out of 5.
+
+[TICKET 2]
+Jira Key: BBTV-3395
+Jira Project: BBTV
+Customer Reference: BBTV:VTVAS-20299
+Generation: Gen3
+Functional Domains: Not specified
+Similarity Score: 0.764
+Summary: STB does not wake from standby with the RCU power key
+Program: Not available
+Status: OPEN
+Priority: High
+Severity: Major
+Component: ToBeDefined
+Version: Not available
+Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: not specified. Intermittent, about 1 time out of 5.
+
+[TICKET 3]
+Jira Key: BBTV-3244
+Jira Project: BBTV
+Customer Reference: BBTV:VTVAS-20179
+Generation: Gen4
+Functional Domains: Boot, Power
+Similarity Score: 0.761
+Summary: STB does not wake from standby with the RCU power key
+Program: Not available
+Status: CLOSED
+Priority: Low
+Severity: Critical
+Component: ToBeDefined
+Version: [FW][AVSB] 2.2405.18
+Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][AVSB] 2.2405.18. Reproduced 3 times out of 3.
+
+[TICKET 4]
+Jira Key: AVTV-7132
+Jira Project: AVTV
+Customer Reference: AVTV:VTVAS-12097
+Generation: Gen4
+Functional Domains: Boot
+Similarity Score: 0.759
+Summary: STB does not wake from standby with the RCU power key
+Program: Not available
+Status: CLOSED
+Priority: Medium
+Severity: Major
+Component: ToBeDefined
+Version: [FW][STB37X] 5.2406.10
+Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][STB37X] 5.2406.10. Intermittent, about 1 time out of 5.
+
+[TICKET 5]
+Jira Key: BBTV-3019
+Jira Project: BBTV
+Customer Reference: BBTV:VTVAS-20012
+Generation: Gen4
+Functional Domains: DE-Prod
+Similarity Score: 0.758
+Summary: STB does not wake from standby with the RCU power key
+Program: Not available
+Status: CLOSED
+Priority: High
+Severity: Major
+Component: ToBeDefined
+Version: [FW][AVSB] 2.2405.18
+Description: Preconditions: STB in standby for 10 minutes. Steps to reproduce: 1. Boot the STB. 2. wake up the STB from standby with the RCU. Expected result: power modes works normally. Actual result: black screen or slow wake up. Configuration: deep standby mode. Firmware: [FW][AVSB] 2.2405.18. Intermittent, about 1 time out of 5.
+
+INSTRUCTIONS:
+1. Answer using only the information in the retrieved tickets.
+2. Identify tickets that describe similar symptoms or functional behavior.
+3. Distinguish confirmed facts from hypotheses.
+4. Do not invent root causes, fixes, or test results.
+5. Mention the Jira key whenever you use information from a ticket.
+6. If the context is insufficient, explicitly say so.
+7. Suggest functional test scenarios that could help investigate the issue.
+
+STRUCTURE YOUR ANSWER:
+- Problem understanding
+- Related Jira tickets (with keys)
+- Common symptoms or patterns
+- Possible functional coverage gaps
+- Suggested validation scenarios
+- Limitations / missing information
