@@ -1,0 +1,6 @@
+pandas
+openpyxl
+scikit-learn
+# Optionnel (version cible, si l'installation est autorisée sur le poste) :
+# sentence-transformers
+# chromadb
